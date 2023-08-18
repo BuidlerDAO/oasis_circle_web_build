@@ -88380,7 +88380,7 @@ $2(a,b){a.vN(0,$.yE().gep(),t.QI).sj2(0,b)
 A.ak5("userId",b.d)
 A.ak5("username",b.c)
 A.ak5("avatar",b.e)
-A.ak5("token",b.a)
+A.ak5("web.token",b.a)
 A.aKq("fake!")},
 $S:541}
 A.BE.prototype={
