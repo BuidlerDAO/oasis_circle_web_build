@@ -93122,7 +93122,7 @@ return A.hS(B.bd,A.a([A.lG(60,A.vY(!1,new A.bO(B.FP,A.bj(new A.nn("https://ik.im
 $S:574}
 A.a8d.prototype={
 $0(){var s=t.N
-A.aNx(this.b,"postNew",A.aj(["id",this.a.e],s,s),A.aj(["name",this.c.b],s,t.z),t.X)},
+A.aNx(this.b,"/flutter/postNew",A.aj(["id",this.a.e],s,s),A.aj(["name",this.c.b],s,t.z),t.X)},
 $S:0}
 A.a8k.prototype={
 $2(a,b){var s=null
@@ -93783,7 +93783,7 @@ $0(){var s,r,q=this.b
 A.dF(q,!1).fV(null)
 s=this.a
 r=t.N
-A.aNx(q,"postEdit",A.aj(["id",B.e.l(s.w)],r,r),A.aj(["name","\u7f16\u8f91\u5e16\u5b50","clubId",B.e.l(s.f)],r,t.z),t.X)},
+A.aNx(q,"/flutter/postEdit",A.aj(["id",B.e.l(s.w)],r,r),A.aj(["name","\u7f16\u8f91\u5e16\u5b50","clubId",B.e.l(s.f)],r,t.z),t.X)},
 $S:0}
 A.am4.prototype={
 $0(){var s=this.a
