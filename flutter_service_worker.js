@@ -14,8 +14,8 @@ const RESOURCES = {"assets/assets/fonts/iconfonts.ttf": "377adb08ecb37392c6cb038
 "assets/NOTICES": "e9d72cf732f70cc1bf53a33aad140d08",
 "version.json": "a7d0195c63e2e522c37ee18e73b44bd2",
 "manifest.json": "b821ad466feece003cce6da9f796e5f5",
-"index.html": "652cd68d280baac0b532781535046e1a",
-"/": "652cd68d280baac0b532781535046e1a",
+"index.html": "33f6a52294880bd79d33bf51d90f4233",
+"/": "33f6a52294880bd79d33bf51d90f4233",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -31,7 +31,7 @@ const RESOURCES = {"assets/assets/fonts/iconfonts.ttf": "377adb08ecb37392c6cb038
 "canvaskit/chromium/canvaskit.wasm": "fc18c3010856029414b70cae1afc5cd9",
 "canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b5652e05",
 "canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
-".github/workflows/main.yml": "65e45eff4ee0188de9143ece0ab944db"};
+".github/workflows/main.yml": "ce233e92b5875918d859e9c9d9b9ffc7"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",
