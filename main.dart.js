@@ -28319,8 +28319,9 @@ _.a=a
 _.b=b
 _.c=c
 _.d=d},
-asu:function asu(a,b){this.a=a
-this.b=b},
+asu:function asu(a,b,c){this.a=a
+this.b=b
+this.c=c},
 ast:function ast(a,b,c){this.a=a
 this.b=b
 this.c=c},
@@ -28329,8 +28330,9 @@ asj:function asj(){},
 asn:function asn(){},
 asv:function asv(a,b){this.a=a
 this.b=b},
-asw:function asw(a,b){this.a=a
-this.b=b},
+asw:function asw(a,b,c){this.a=a
+this.b=b
+this.c=c},
 r8:function r8(a,b,c,d){var _=this
 _.e=a
 _.f=b
@@ -28422,7 +28424,7 @@ this.a=c},
 ad5:function ad5(a){this.a=a},
 ad4:function ad4(a,b){this.a=a
 this.b=b},
-RR:function RR(a,b,c,d,e,f,g,h){var _=this
+RR:function RR(a,b,c,d,e,f,g,h,i){var _=this
 _.e=a
 _.f=b
 _.r=c
@@ -28431,7 +28433,8 @@ _.x=e
 _.Q=f
 _.at=g
 _.ax=0
-_.a=h},
+_.ay=h
+_.a=i},
 alW:function alW(a,b){this.a=a
 this.b=b},
 alV:function alV(a,b){this.a=a
@@ -93195,7 +93198,7 @@ return A.ha(B.b8,A.a([A.lJ(60,A.w2(!1,new A.bO(B.FT,A.bi(new A.no("https://ik.im
 $S:574}
 A.a8l.prototype={
 $0(){var s=t.N
-A.aNM(this.b,"/flutter/postNew",A.aj(["id",this.a.e],s,s),A.aj(["name",this.c.b],s,t.z),t.X)},
+A.aNM(this.b,"flutter/postNew",A.aj(["id",this.a.e],s,s),A.aj(["name",this.c.b],s,t.z),t.X)},
 $S:0}
 A.a8s.prototype={
 $2(a,b){var s=null
@@ -93498,22 +93501,23 @@ return A.L(null,r)}})
 return A.M($async$$0,r)},
 $S:23}
 A.asC.prototype={
-$1(a){var s=this,r=null,q=J.b6(a.gqP())>3?J.aXI(a.gqP(),0,3):a.gqP(),p=s.b,o=a.gdJ(a),n=a.gZ3(a),m=a.giy(),l=a.giy(),k=a.giy(),j=a.gox(a),i=A.vM("yyyy-MM-dd HH:mm:ss").kY(A.jp(a.goB(),!1)),h=a.gir(),g=a.goP(a),f=a.gX9(),e=a.gXt(),d=s.a,c=d.w
-n=A.bM(r,A.aIS(l.b,k.a,m.c,new A.ast(d,s.c,s.d),d.f,d.x,a.gHD(),o,!0,c,f,!1,e,i,g,a.gdJ(a),h,j,a.gYb(),a.gte(),n),B.B,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.asu(p,a),r,r,r,r,r,r)
-o=J.ah(q)
-m=o.gb_(q)&&c?A.a8(r,r,B.f,r,r,r,r,14,r,r,r,r,r):A.a8(r,r,B.f,r,r,r,r,r,r,r,r,r,r)
-if(o.gb_(q)&&c){l=A.d2(4)
-if(o.gb_(q)){o=o.cW(q,new A.asv(d,a),t.lh)
-o=A.ae(o,!0,o.$ti.h("av.E"))}else o=A.a([A.a8(r,r,B.f,r,r,r,r,r,r,r,r,r,r)],t.p)
-l=A.a8(r,A.bc(o,B.w,B.n,B.p),B.f,r,r,new A.cm(new A.o(4294441466),r,r,l,r,r,r,B.a5),r,r,r,new A.a0(8,10,8,10),r,r,1/0)
-o=l}else o=A.a8(r,r,B.f,r,r,r,r,r,r,r,r,r,r)
-p=a.gHD()>3&&c?A.bM(r,A.a8(r,A.cg(B.IQ,B.w,B.n,B.p),B.f,r,r,r,r,r,new A.a0(0,12,0,0),r,r,r,r),B.B,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.asw(p,a),r,r,r,r,r,r):A.a8(r,r,B.f,r,r,r,r,r,r,r,r,r,r)
-return A.a8(r,A.bc(A.a([n,m,o,p,A.a8(r,r,B.f,r,r,new A.c8(r,r,r,r,new A.b5(B.X,new A.aF(new A.o(4294111986),0.5,B.y,0))),r,r,new A.a0(0,14,0,14),r,r,r,r)],t.p),B.w,B.n,B.p),B.f,r,r,r,r,r,r,r,r,r,r)},
+$1(a){var s=this,r=null,q=J.b6(a.gqP())>3?J.aXI(a.gqP(),0,3):a.gqP(),p=s.a,o=s.b,n=a.gdJ(a),m=a.gZ3(a),l=a.giy(),k=a.giy(),j=a.giy(),i=a.gox(a),h=A.vM("yyyy-MM-dd HH:mm:ss").kY(A.jp(a.goB(),!1)),g=a.gir(),f=a.goP(a),e=a.gX9(),d=a.gXt(),c=p.w
+m=A.bM(r,A.aIS(k.b,j.a,l.c,new A.ast(p,s.c,s.d),p.f,p.x,a.gHD(),n,!0,c,e,!1,d,h,f,a.gdJ(a),g,i,a.gYb(),a.gte(),m),B.B,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.asu(p,o,a),r,r,r,r,r,r)
+n=J.ah(q)
+l=n.gb_(q)&&c?A.a8(r,r,B.f,r,r,r,r,14,r,r,r,r,r):A.a8(r,r,B.f,r,r,r,r,r,r,r,r,r,r)
+if(n.gb_(q)&&c){k=A.d2(4)
+if(n.gb_(q)){n=n.cW(q,new A.asv(p,a),t.lh)
+n=A.ae(n,!0,n.$ti.h("av.E"))}else n=A.a([A.a8(r,r,B.f,r,r,r,r,r,r,r,r,r,r)],t.p)
+k=A.a8(r,A.bc(n,B.w,B.n,B.p),B.f,r,r,new A.cm(new A.o(4294441466),r,r,k,r,r,r,B.a5),r,r,r,new A.a0(8,10,8,10),r,r,1/0)
+n=k}else n=A.a8(r,r,B.f,r,r,r,r,r,r,r,r,r,r)
+p=a.gHD()>3&&c?A.bM(r,A.a8(r,A.cg(B.IQ,B.w,B.n,B.p),B.f,r,r,r,r,r,new A.a0(0,12,0,0),r,r,r,r),B.B,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.asw(p,o,a),r,r,r,r,r,r):A.a8(r,r,B.f,r,r,r,r,r,r,r,r,r,r)
+return A.a8(r,A.bc(A.a([m,l,n,p,A.a8(r,r,B.f,r,r,new A.c8(r,r,r,r,new A.b5(B.X,new A.aF(new A.o(4294111986),0.5,B.y,0))),r,r,new A.a0(0,14,0,14),r,r,r,r)],t.p),B.w,B.n,B.p),B.f,r,r,r,r,r,r,r,r,r,r)},
 $S:587}
 A.asu.prototype={
-$0(){var s=this.b
+$0(){var s,r=this.a
+if(r.w){s=this.c
 s=s.gdJ(s)
-return A.iP(this.a).kl(0,"/postDetail/"+s,null)},
+A.iP(this.b).kl(0,"/flutter/postDetail/"+s+"?clubId="+r.f,null)}},
 $S:0}
 A.ast.prototype={
 $0(){A.uQ(this.a.r,this.b).am(new A.asm(this.c),t.P).dE(new A.asn())},
@@ -93535,9 +93539,10 @@ $1(a){var s=this.b
 return new A.r8(a,s.gdJ(s),this.a.r,null)},
 $S:588}
 A.asw.prototype={
-$0(){var s=this.b
+$0(){var s,r=this.a
+if(r.w){s=this.c
 s=s.gdJ(s)
-return A.iP(this.a).kl(0,"/postDetail/"+s,null)},
+A.iP(this.b).kl(0,"/flutter/postDetail/"+s+"?clubId="+r.f,null)}},
 $S:0}
 A.r8.prototype={
 cf(a,b){var s=null,r=b.ct($.a4D(),t.S),q=this.e,p=q.gdJ(q),o=B.e.l(q.giy().a),n=q.giy(),m=q.gox(q),l=q.gir()
@@ -93735,7 +93740,7 @@ if(J.ho(n))o.push(A.a8(q,new A.PG(n,q),B.f,q,q,q,q,q,q,B.no,q,q,q))
 n=r.ay
 if(J.ho(n))o.push(A.a8(q,new A.OI(n,r.fx,q),B.f,q,q,q,q,q,q,B.no,q,q,q))
 o.push(B.kS)
-if(r.fx)o.push(new A.RR(r.z,r.Q,r.as,r.ch,r.fy,r.CW,r.cy,q))
+if(r.fx)o.push(new A.RR(r.z,r.Q,r.as,r.ch,r.fy,r.CW,r.cy,r.dy,q))
 return A.bc(o,B.w,B.n,B.p)}}
 A.alZ.prototype={
 $2(a,b){var s,r=null,q=this.a,p=q.at,o=A.Ur(r,r,5,r,A.ck(r,r,A.ay(r,r,r,r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),p),B.bp,B.F,r,1,B.ah)
@@ -93842,7 +93847,8 @@ A.alO.prototype={
 $1(a){return A.Go(a)},
 $S:75}
 A.alY.prototype={
-$0(){A.oV(new A.ld("https://buidler-club.vercel.app/postDetails/"+this.a.Q+"?invitor="+this.b.d))
+$0(){var s=this.a
+A.oV(new A.ld("https://buidler-club.vercel.app/postDetails/"+s.Q+"?clubId="+s.ay+"&invitor="+this.b.d))
 A.bW("\u5185\u5bb9\u590d\u5236\u6210\u529f")},
 $S:0}
 A.RU.prototype={
@@ -93896,7 +93902,7 @@ $0(){var s,r,q=this.b
 A.dF(q,!1).fV(null)
 s=this.a
 r=t.N
-A.aNM(q,"/flutter/postEdit",A.aj(["id",B.e.l(s.w)],r,r),A.aj(["name","\u7f16\u8f91\u5e16\u5b50","clubId",B.e.l(s.f)],r,t.z),t.X)},
+A.aNM(q,"flutter/postEdit",A.aj(["id",B.e.l(s.w)],r,r),A.aj(["name","\u7f16\u8f91\u5e16\u5b50","clubId",B.e.l(s.f)],r,t.z),t.X)},
 $S:0}
 A.amf.prototype={
 $0(){var s=this.a
@@ -94529,7 +94535,7 @@ A.agH.prototype={
 $0(){return A.iP(this.a).kl(0,"/flutter/postNew/19",null)},
 $S:0}
 A.agI.prototype={
-$0(){return A.iP(this.a).kl(0,"/postDetail/1?clubId=106",null)},
+$0(){return A.iP(this.a).kl(0,"/flutter/postDetail/1?clubId=106",null)},
 $S:0}
 A.agJ.prototype={
 $0(){return this.a.$0()},
@@ -94545,7 +94551,7 @@ A.yh.prototype={
 cf(a,b){return B.O_}}
 A.aFI.prototype={
 $1(a){var s="/flutter"
-return A.b0q(!0,s,A.a([new A.M3()],t.tc),A.a([A.rP(new A.aFB(),"/flutter/home",s),A.rP(new A.aFC(),"splash","/splash"),A.rP(new A.aFD(),"details","/details/:id"),A.rP(new A.aFE(),"/flutter/circle","/flutter/circle/:id"),A.rP(new A.aFF(),"postDetail","/postDetail/:id"),A.rP(new A.aFG(),"/flutter/postNew","/flutter/postNew/:id"),A.rP(new A.aFH(),"/flutter/postEdit","/flutter/postEdit/:id")],t.yo))},
+return A.b0q(!0,s,A.a([new A.M3()],t.tc),A.a([A.rP(new A.aFB(),"/flutter/home",s),A.rP(new A.aFC(),"splash","/splash"),A.rP(new A.aFD(),"details","/details/:id"),A.rP(new A.aFE(),"/flutter/circle","/flutter/circle/:id"),A.rP(new A.aFF(),"flutter/postDetail","/flutter/postDetail/:id"),A.rP(new A.aFG(),"flutter/postNew","/flutter/postNew/:id"),A.rP(new A.aFH(),"flutter/postEdit","/flutter/postEdit/:id")],t.yo))},
 $S:607}
 A.aFB.prototype={
 $2(a,b){return B.GC},
