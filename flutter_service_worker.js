@@ -26,11 +26,11 @@ const RESOURCES = {"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "flutter.js": "6fef97aeca90b426343ba6c5c9dc5d4a",
-"index.html": "a9458bf0dc42a132cbff39dcb8a7483d",
-"/": "a9458bf0dc42a132cbff39dcb8a7483d",
+"index.html": "2807e20e959178cdfa0ee0e7ca5dd6c5",
+"/": "2807e20e959178cdfa0ee0e7ca5dd6c5",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 ".github/workflows/main.yml": "ce233e92b5875918d859e9c9d9b9ffc7",
-"main.dart.js": "0d4717d2c4f2eb54a807f85f64df3227",
+"main.dart.js": "8fec41cb1901599c96f1a6595b806768",
 "vercel.json": "b86674833d99981d58ca921aeb97b92a",
 "manifest.json": "b821ad466feece003cce6da9f796e5f5"};
 // The application shell files that are downloaded before a service worker can
