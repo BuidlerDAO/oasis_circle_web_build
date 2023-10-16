@@ -94058,7 +94058,7 @@ $0(){var s=0,r=A.J(t.H),q=this,p,o,n
 var $async$$0=A.F(function(a,b){if(a===1)return A.G(b,r)
 while(true)switch(s){case 0:p=A.jW().l(0)
 o=q.a
-n=A.cW(A.cW(B.b.m3(p,"flutter/circle/"+o.a.d,"login?redirect="+B.b.m3(p,"/flutter/circle","/circles")),0,null).l(0),0,null)
+n=A.cW(A.cW(B.b.m3(p,p.split("flutter/circle/"+o.a.d)[1],"login?redirect="+B.b.m3(p,"/flutter/circle","/circles")),0,null).l(0),0,null)
 s=2
 return A.M(A.r3(n,B.dC,null,B.ds),$async$$0)
 case 2:if(!b)throw A.c(A.bp("Could not launch "+n.l(0)))
