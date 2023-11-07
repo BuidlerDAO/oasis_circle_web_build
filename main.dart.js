@@ -28312,7 +28312,7 @@ _.d=c
 _.f=null},
 alW:function alW(a){this.a=a},
 aLV(a,b,c){return new A.afi(c,a)},
-aRs(){switch("release"){case"dev":return $.aPa()
+aRs(){switch("test"){case"dev":return $.aPa()
 case"release":return $.aYv()
 case"test":return $.aYw()
 default:return $.aPa()}},
