@@ -95323,7 +95323,7 @@ if(p.f)q.push(new A.bM(B.P0,A.ai(p.c+" ",r,r,r,r,A.a7(r,r,B.i,r,B.a8e,r,r,2.5,r,
 p=s.a
 q.push(A.ai(A.h(p.f?0:p.c)+" ",r,r,r,r,A.a7(r,r,A.a0(a).ax.b,r,r,r,r,r,r,r,r,24,r,r,B.bp,r,r,!0,r,r,r,r,r,r,r,r),r,r))
 p=s.a
-p=p.f||p.c==="0"?"USDT/\u5e74":p.e
+p=p.c==="0"?"USDT/\u5e74":p.e
 q.push(A.jR(A.ai(p,r,r,r,r,A.a7(r,r,r,r,r,r,r,r,r,r,r,24,r,r,B.bp,r,r,!0,r,r,r,r,r,r,r,r),r,r),1))
 p=s.a
 p=p.f||p.c==="0"?"\u514d\u8d39\u52a0\u5165\u793e\u533a":"\u52a0\u5165\u793e\u533a"
