@@ -28301,8 +28301,8 @@ _.f=null},
 aml:function aml(a){this.a=a},
 aMl(a,b,c){return new A.afH(c,a)},
 aRU(){switch("release"){case"dev":return $.aYV()
-case"release":return $.aPB()
-case"test":return $.aYW()
+case"release":return $.aYW()
+case"test":return $.aPB()
 default:return $.aPB()}},
 afH:function afH(a,b){this.a=a
 this.c=b},
@@ -109425,8 +109425,8 @@ s($,"bgq","aYP",()=>A.a([A.by("^'(?:[^']|'')*'",!0,!1,!1),A.by("^(?:G+|y+|M+|k+|
 s($,"bip","aZM",()=>A.by("''",!0,!1,!1))
 s($,"bh3","aL5",()=>A.amk(""))
 s($,"bgE","aYV",()=>A.aMl("https://dev-circle-api.buidlerdao.xyz","","Circle Dev"))
-s($,"bgG","aYW",()=>A.aMl("https://test-circle-api.buidlerdao.xyz","","Circle Test"))
-s($,"bgF","aPB",()=>A.aMl("https://api.oasiscircle.xyz","","Circle"))
+s($,"bgG","aPB",()=>A.aMl("https://test-circle-api.buidlerdao.xyz","","Circle Test"))
+s($,"bgF","aYW",()=>A.aMl("https://api.oasiscircle.xyz","","Circle"))
 r($,"bg2","aPu",()=>A.aRU().c)
 s($,"bl_","b0k",()=>A.aTH(new A.aJv(),t.Dh))
 s($,"bhz","aZk",()=>new A.UE())
