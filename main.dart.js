@@ -95629,7 +95629,7 @@ $0(){this.a.d=!1},
 $S:0}
 A.Th.prototype={
 F(a){var s,r,q,p,o=null,n=t.l,m=A.aW(a,o,n).w.a.a>600,l=A.bp(9),k=B.d.l(this.c/100),j=A.aW(a,o,n).w.a.a-48,i=A.bp(9),h=m?j*74/632:96
-h=A.K(o,o,B.e,o,o,new A.bV(o,A.Cw(B.L0,new A.iO(m?"https://ik.imagekit.io/pqilkfzt7wb/Circle/banner%20(3)_3Q9DOK8eK.png?updatedAt=1698413675532":"https://ik.imagekit.io/pqilkfzt7wb/Circle/banner%20(2)_Yq8uqZ76g.png?updatedAt=1698413694368",1,o),o),o,l,o,o,o,B.a2),o,h,o,o,o,o,j)
+h=A.K(o,o,B.e,o,o,new A.bV(o,A.Cw(B.L0,new A.iO(m?"https://ik.imagekit.io/pqilkfzt7wb/Circle/banner_BaswYsxb6.png?updatedAt=1704016289201":"https://ik.imagekit.io/pqilkfzt7wb/Circle/banner%20(1)_NZzm9peKA.png?updatedAt=1704016295831",1,o),o),o,l,o,o,o,B.a2),o,h,o,o,o,o,j)
 s=m?A.aW(a,o,n).w.a.a*0.34:11
 n=m?A.aW(a,o,n).w.a.a*0.25:A.aW(a,o,n).w.a.a*0.42
 r=m?14.5:12
