@@ -98873,6 +98873,7 @@ m=t.N
 m=A.kT(n.goh(),m,m)
 p=q.a.r
 if(p>0)m.p(0,"invitor",B.f.k(p))
+else if(m.ab(0,"invitor"))m.B(0,"invitor")
 o=n.yb(0,A.a(["circles",B.f.k(q.b.a.b)],t.s),m)
 s=2
 return A.K(A.jO(o,B.bZ,null,B.bT),$async$$0)
@@ -98895,6 +98896,7 @@ m=t.N
 m=A.kT(n.goh(),m,m)
 p=q.a.r
 if(p>0)m.p(0,"invitor",B.f.k(p))
+else if(m.ab(0,"invitor"))m.B(0,"invitor")
 o=n.yb(0,A.a(["circles",B.f.k(q.b.a.b)],t.s),m)
 s=2
 return A.K(A.jO(o,B.bZ,null,B.bT),$async$$0)
