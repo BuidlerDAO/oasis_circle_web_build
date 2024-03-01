@@ -20,11 +20,11 @@ const RESOURCES = {"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2e
 "canvaskit/chromium/canvaskit.js.symbols": "4525682ef039faeb11f24f37436dca06",
 "canvaskit/chromium/canvaskit.js": "43787ac5098c648979c27c13c6f804c3",
 "canvaskit/canvaskit.js": "c86fbd9e7b17accae76e5ad116583dc4",
-"index.html": "1bd4b87437d03aca879ff7123c33b834",
-"/": "1bd4b87437d03aca879ff7123c33b834",
+"index.html": "184cc67e92d3207b9d86a772179ad900",
+"/": "184cc67e92d3207b9d86a772179ad900",
 "flutter.js": "c71a09214cb6f5f8996a531350400a9a",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"main.dart.js": "044a45cd1e44bd15828538869ba1c501",
+"main.dart.js": "15ac6382ab05e46428ff16e353e3336d",
 ".github/workflows/main.yml": "ce233e92b5875918d859e9c9d9b9ffc7",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "89ed8f4e49bcdfc0b5bfc9b24591e347",
 "assets/AssetManifest.bin": "fdf701e71d74e52c267298af11e8245a",
@@ -33,9 +33,9 @@ const RESOURCES = {"icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2e
 "assets/FontManifest.json": "274251f94dffde0a90bc4888e66cb765",
 "assets/fonts/MaterialIcons-Regular.otf": "4029d1895d872cf5f02b63c1857e7b9a",
 "assets/AssetManifest.bin.json": "b9cd97e5f892bbac0b65f52bddcdd0e7",
-"assets/NOTICES": "a68d98955cdca82a193b1679ecdfa984",
+"assets/NOTICES": "f50d680c02775c9a95929e38b908871b",
 "assets/assets/fonts/sans_bold.ttf": "dba0c688b8d5ee09a1e214aebd5d25e4",
-"assets/assets/fonts/iconfonts2.ttf": "aabe98be2af8f8acd6be65ce7ad6df13",
+"assets/assets/fonts/iconfonts2.ttf": "23a72cd8d8c04dd1adcd322231a7c4fe",
 "assets/assets/fonts/k3kXo84MPvpLmixcA63oeALhL4iJ-Q7m8w.otf": "e3ae561f7b8052d9aa9f2b0b09c33ea1"};
 // The application shell files that are downloaded before a service worker can
 // start.
